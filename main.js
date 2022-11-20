@@ -18,6 +18,8 @@ function num_click(val){
     result.value = "0";
   }else if(result.value == "0" && val == "."){
     result.value = "0.";
+  }else if(result.value == "0" && val == "00"){
+    result.value = "0";
   }else if(result.value == "0"){
     result.value = val;
   }else{
